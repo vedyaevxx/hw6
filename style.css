@@ -1,6 +1,6 @@
 .main_container {
     width: 700px;
-    margin: 0 auto;
+    margin: 12% auto;
     font-size: 0;
 }
 
@@ -11,11 +11,22 @@
     display: inline-block;
     text-align: center;
     border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.card:hover{
+    box-shadow: 3px 3px 5px #C8C8C8;
+    border-radius: 5px;
 }
 
 .top_card{margin-top: 0;}
 
 .bottom_card{margin-bottom: 0;}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
 
 img {
     width: 130px;
@@ -28,6 +39,8 @@ h4 {
     padding: 10px 0;
     font-size: 18px;
 }
+
+h4:hover{text-decoration: underline;}
 
 p {
     height: 36px;
